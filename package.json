@@ -1,0 +1,16 @@
+{
+  "name": "ethereum-address-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "ethereumjs-util": "0.0.7",
+    "secp256k1": "0.0.15"
+  }
+}

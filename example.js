@@ -1,3 +1,11 @@
 var generateAddress = require('./index.js')
 
-generateAddress.startingWith('b100d')
+var target = process.argv[2]
+
+if (target) {
+  generateAddress.startingWith(target)
+} else {
+  console.log('please enter a target')
+}
+
+

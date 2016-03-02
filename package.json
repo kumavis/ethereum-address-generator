@@ -1,6 +1,6 @@
 {
   "name": "ethereum-address-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "crypto": "0.0.3",
-    "ethereumjs-util": "0.0.7",
-    "secp256k1": "0.0.15"
+    "ethereumjs-util": "4.0.1"
   }
 }

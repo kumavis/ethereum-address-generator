@@ -1,6 +1,5 @@
 var crypto = require('crypto')
 var ethUtil = require('ethereumjs-util')
-var ecdsa = require('secp256k1')
 
 module.exports = generateAddress
 generateAddress.startingWith = startingWith
@@ -9,7 +8,7 @@ generateAddress.startingWith = startingWith
 function generateAddress() {
 
   var privateKey = crypto.randomBytes(32)
-  var publicKey = ecdsa.createPublicKey(privateKey)
+  var publicKey = ethUtil.privateToPublic(privateKey)
   var address = ethUtil.pubToAddress(publicKey)
 
   return {

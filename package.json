@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ethereumjs-util": "4.0.1"
+    "ethereumjs-util": "5.1.2"
   }
 }
